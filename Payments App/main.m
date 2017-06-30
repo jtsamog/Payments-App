@@ -16,8 +16,18 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        InputHandler *intputHandler = [[InputHandler alloc]init];
+        int r = 100 + arc4random_uniform(900) ;
         
+        NSLog(@"Thank you for shopping at Acme.com Your total today is $%u Please select your payment method: 1: Amazon, 2: Paypal, 3: Stripe", r );
+        
+        NSString *parsedString = [InputHandler getUserInput];
+        
+        int choice = [parsedString intValue];
+        
+        NSLog(@"%d",choice);
+        
+        
+        PaymentGateway *paymentGateway = [[PaymentGateway alloc]init];
         
     }
     return 0;
