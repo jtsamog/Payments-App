@@ -7,11 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "InputHandler.h"
+#import "PaymentGateway.h"
+#import "AmazonPaymentService.h"
+#import "StripePaymentService.h"
+#import "PaypalPaymentService.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        InputHandler *intputHandler = [[InputHandler alloc]init];
+        
+        
     }
     return 0;
 }
