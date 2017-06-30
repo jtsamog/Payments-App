@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PaymentDelegate.h"
 
-@interface AmazonPaymentService : NSObject
+@interface AmazonPaymentService : NSObject<PaymentDelegate>
 
 @end

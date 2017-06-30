@@ -29,6 +29,28 @@ int main(int argc, const char * argv[]) {
         
         PaymentGateway *paymentGateway = [[PaymentGateway alloc]init];
         
+//        [paymentGateway processPaymentAmount:r];
+        id <PaymentDelegate>delegateForSwitch;
+        
+        switch (choice) {
+            case 1:
+                delegateForSwitch = [[AmazonPaymentService alloc] init];
+                break;
+            case 2:
+                delegateForSwitch = [[StripePaymentService alloc]init];
+                break;
+                
+            case 3:
+                delegateForSwitch = [[PaypalPaymentService alloc] init];
+                break;
+            default:
+                break;
+        }
+        
+        paymentGateway.delegate = delegateForSwitch;
+        [paymentGateway processPaymentAmount:r];
+        
+        
     }
     return 0;
 }

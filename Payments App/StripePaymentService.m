@@ -10,4 +10,12 @@
 
 @implementation StripePaymentService
 
+- (void) processPaymentAmount: (NSInteger) amount{
+    NSLog(@"Stripe processed $%ld amount", amount);
+}
+
+- (BOOL) canProcessPayment{
+    NSInteger rand = arc4random_uniform(2);
+    return rand = YES | NO;
+}
 @end
