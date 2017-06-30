@@ -13,6 +13,7 @@
 		306281981F06831C00F0C958 /* AmazonPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 306281971F06831C00F0C958 /* AmazonPaymentService.m */; };
 		3062819B1F06836E00F0C958 /* StripePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3062819A1F06836E00F0C958 /* StripePaymentService.m */; };
 		3062819E1F06839200F0C958 /* PaypalPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3062819D1F06839200F0C958 /* PaypalPaymentService.m */; };
+		306281DA1F06B27B00F0C958 /* ApplePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 306281D91F06B27B00F0C958 /* ApplePaymentService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,8 @@
 		3062819A1F06836E00F0C958 /* StripePaymentService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StripePaymentService.m; sourceTree = "<group>"; };
 		3062819C1F06839200F0C958 /* PaypalPaymentService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaypalPaymentService.h; sourceTree = "<group>"; };
 		3062819D1F06839200F0C958 /* PaypalPaymentService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaypalPaymentService.m; sourceTree = "<group>"; };
+		306281D81F06B27B00F0C958 /* ApplePaymentService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplePaymentService.h; sourceTree = "<group>"; };
+		306281D91F06B27B00F0C958 /* ApplePaymentService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplePaymentService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				301D48151F05DD0800F14082 /* main.m */,
+				306281D81F06B27B00F0C958 /* ApplePaymentService.h */,
+				306281D91F06B27B00F0C958 /* ApplePaymentService.m */,
 				306281951F067F7200F0C958 /* PaymentDelegate.h */,
 				3062818F1F067E2A00F0C958 /* InputHandler.h */,
 				306281901F067E2A00F0C958 /* InputHandler.m */,
@@ -148,6 +153,7 @@
 				3062819B1F06836E00F0C958 /* StripePaymentService.m in Sources */,
 				306281941F067EE500F0C958 /* PaymentGateway.m in Sources */,
 				301D48161F05DD0800F14082 /* main.m in Sources */,
+				306281DA1F06B27B00F0C958 /* ApplePaymentService.m in Sources */,
 				306281981F06831C00F0C958 /* AmazonPaymentService.m in Sources */,
 				306281911F067E2A00F0C958 /* InputHandler.m in Sources */,
 				3062819E1F06839200F0C958 /* PaypalPaymentService.m in Sources */,
