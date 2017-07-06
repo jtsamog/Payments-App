@@ -15,7 +15,6 @@
 }
 
 - (BOOL) canProcessPayment{
-    NSInteger rand = arc4random_uniform(2);
-    return rand = YES | NO;
+    return arc4random_uniform(2) == 1 ? YES : NO;
 }
 @end

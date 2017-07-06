@@ -77,13 +77,13 @@
 			isa = PBXGroup;
 			children = (
 				301D48151F05DD0800F14082 /* main.m */,
-				306281D81F06B27B00F0C958 /* ApplePaymentService.h */,
-				306281D91F06B27B00F0C958 /* ApplePaymentService.m */,
 				306281951F067F7200F0C958 /* PaymentDelegate.h */,
 				3062818F1F067E2A00F0C958 /* InputHandler.h */,
 				306281901F067E2A00F0C958 /* InputHandler.m */,
 				306281921F067EE500F0C958 /* PaymentGateway.h */,
 				306281931F067EE500F0C958 /* PaymentGateway.m */,
+				306281D81F06B27B00F0C958 /* ApplePaymentService.h */,
+				306281D91F06B27B00F0C958 /* ApplePaymentService.m */,
 				306281961F06831C00F0C958 /* AmazonPaymentService.h */,
 				306281971F06831C00F0C958 /* AmazonPaymentService.m */,
 				306281991F06836E00F0C958 /* StripePaymentService.h */,
